@@ -1,7 +1,0 @@
-pandas
-numpy
-scikit-learn
-statsmodels
-scipy
-gap_stat
-scikit-learn-extra
