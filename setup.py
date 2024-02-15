@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='creditpy',
-    version='1.0',
+    version='1.1',
     packages=find_packages(),
     author='Ayhan Dis',
     author_email='disayhan@gmail.com',
