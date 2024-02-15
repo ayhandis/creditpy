@@ -1,5 +1,8 @@
 pandas
 numpy
 scikit-learn
-statsmodelsscipymath
-gap_statisticscikit-learn-extra
+statsmodels
+scipy
+math
+gap_statistic
+scikit-learn-extra

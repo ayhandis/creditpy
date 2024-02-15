@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: creditpy
-Version: 0.1.0
+Version: 1.0
 Summary: A package for credit scoring analysis
 Home-page: https://github.com/ayhandis/creditpy
 Author: Ayhan Dis
@@ -14,8 +14,11 @@ License-File: LICENSE.txt
 Requires-Dist: pandas
 Requires-Dist: numpy
 Requires-Dist: scikit-learn
-Requires-Dist: statsmodelsscipymath
-Requires-Dist: gap_statisticscikit-learn-extra
+Requires-Dist: statsmodels
+Requires-Dist: scipy
+Requires-Dist: math
+Requires-Dist: gap_statistic
+Requires-Dist: scikit-learn-extra
 
 # CreditPy
 ## A Credit Risk Scoring and Validation Package
