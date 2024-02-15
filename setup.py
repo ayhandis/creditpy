@@ -17,7 +17,6 @@ setup(
         'scikit-learn',
         'statsmodels',
         'scipy',
-        'math',
         'gap_statistic',
         'scikit-learn-extra'
     ],
