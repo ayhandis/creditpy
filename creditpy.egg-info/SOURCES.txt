@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+creditpy.egg-info/PKG-INFO
+creditpy.egg-info/SOURCES.txt
+creditpy.egg-info/dependency_links.txt
+creditpy.egg-info/requires.txt
+creditpy.egg-info/top_level.txt

@@ -15,10 +15,10 @@ setup(
         'pandas',
         'numpy',
         'scikit-learn',
-        'statsmodels'
-        'scipy'
+        'statsmodels',
+        'scipy',
         'math',
-        'gap_statistic'
+        'gap_statistic',
         'scikit-learn-extra'
     ],
     classifiers=[

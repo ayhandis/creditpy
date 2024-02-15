@@ -1,0 +1,5 @@
+pandas
+numpy
+scikit-learn
+statsmodelsscipymath
+gap_statisticscikit-learn-extra
