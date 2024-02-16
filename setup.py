@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='creditpy',
-    version='1.2',
+    version='1.3',
     packages=find_packages(),
     author='Ayhan Dis',
     author_email='disayhan@gmail.com',
@@ -12,13 +12,13 @@ setup(
     url='https://github.com/ayhandis/creditpy',
     license='MIT',
     install_requires=[
-        'pandas',
-        'numpy',
-        'scikit-learn',
-        'statsmodels',
-        'scipy',
-        'gap_stat',
-        'scikit-learn-extra'
+        'pandas==2.2.0',
+        'numpy==1.26.4',
+        'scikit-learn==1.4.0',
+        'statsmodels==0.14.1',
+        'scipy==1.12.0',
+        'gap_stat==2.0.3',
+        'scikit-learn-extra==0.3.0'
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
