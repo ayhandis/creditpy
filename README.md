@@ -16,6 +16,16 @@ pip install creditpy
 ### Getting Started
 You can import CreditPy modules and use its functions as follows:
 ```
+#In case if the package is not visible for the operating system.
+# Get the current directory of the script
+current_dir = os.path.dirname(os.path.realpath(__file__))
+
+# Construct the path to the creditpy package
+creditpy_path = os.path.join(current_dir, 'creditpy')
+
+# Add the creditpy package path to sys.path
+sys.path.append(creditpy_path)
+
 import pandas as pd
 from creditpy import calculate_gini, missing_ratio, train_test_split, woe, IV_calc_data, Gini_univariate_data, Gini_elimination, variable_clustering, variable_clustering_gini, correlation_cluster, max_gini_model, woe_glm_feature_importance, scaled_score, regression_calibration, master_scale, bayesian_calibration, vif_calc, k_fold_cross_validation_glm, Kolmogorov_Smirnov, PSI_calc_data, Herfindahl_Hirschman_Index, Anchor_point, chisquare_test, Binomial_test
 
